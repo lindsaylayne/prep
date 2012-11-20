@@ -57,10 +57,10 @@ using prep.specs.utility;
 
 namespace prep.specs
 {
-  [Subject(typeof(MovieLibrary))]
-  public class MovieLibrarySpecs
+  [Subject(typeof(GemLibrary))]
+  public class GemLibrarySpecs
   {
-    public abstract class movie_library_concern : Observes<MovieLibrary>
+    public abstract class movie_library_concern : Observes<GemLibrary>
     {
       protected static IList<Movie> movie_collection;
 
